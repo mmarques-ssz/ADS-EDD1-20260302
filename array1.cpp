@@ -34,7 +34,8 @@ void mostra_endereco_array(int p[])
 
 int main(int argc, char** argv)
 {
-	int a[5] = {10, 20, 30, 40 , 50};
+	int a[5] = {10,
+	 20, 30, 40 , 50};
 	mostra_array1(a);
 	mostra_array2(a);
 	mostra_endereco_array(a);
